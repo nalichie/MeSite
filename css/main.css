@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&family=Istok+Web:ital@1&family=Rubik:ital,wght@0,500;1,600&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Rubik";
+    font-style: 16px;
+    color: #000;
+    overflow-x: hidden;
+}
+
+
+.intro {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: url("../img/wrapper.jpg") no-repeat center;
+    justify-content: center;
+    background-size: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+
+.wrapper__title {
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.1;
+    color: #44831E;
+    font-family: "Rubik";
+    margin-bottom: 10px;
+}
+
+.wrapper__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: #eae6ca;
+    font-family: "Rubik";
+    text-align: center;
+    
+}
+
+.prim-btn {
+    display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 12px 40px;
+	color: #ffffff;
+    align-items: center;
+	text-align: center;
+	border-radius: 5px;
+    background-color: #44831E;
+}
+
+.btn-con {
+    display: flex;
+justify-content: center;
+padding: 15px 0;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: 700;
+    font-family: "Rubik";
+    font-size: 32px;
+    color: #44831E;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-menu {
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px;
+    line-height: 1;
+    align-items: center;
+}
+
+.menu-link {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Rubik";
+}
+
+.icons-viz {
+display: flex;
+gap: 20px;
+line-height: normal;
+}
